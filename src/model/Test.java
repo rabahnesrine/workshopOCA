@@ -10,7 +10,7 @@ public class Test {
 		
 		
 		 Etudiant e1 = new Etudiant();
-			System.out.println("tapez un nom :");
+		/*	System.out.println("tapez un nom :");
 
 	     	 e1.nom=s.nextLine();
 			System.out.println("tapez un age :");
@@ -21,7 +21,7 @@ public class Test {
 
 			System.out.println("tapez adresse :");
             e1.adresse=s.next();
-
+*/
 
 				 
 				 
@@ -29,7 +29,12 @@ public class Test {
 				 
 				 
 		 Etudiant e2= new Etudiant("nesrine",25,17,"Metouia Gabes");
+e1.setNom("nourarabeh");
+e1.setAge(50);
+e1.setMoyenne(18);
+
 e1.info();
+
 e2.info();
 	}
 
